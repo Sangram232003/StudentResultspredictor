@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 MODEL_PATH = os.path.join(
     os.path.dirname(__file__),
-    "random_model(1).pkl"
+    "model.pkl"
 )
 
 try:
